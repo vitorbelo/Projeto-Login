@@ -98,6 +98,7 @@
             this.txtUsuario.Size = new System.Drawing.Size(347, 20);
             this.txtUsuario.TabIndex = 1;
             this.txtUsuario.Text = "USUÁRIO";
+            this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
@@ -112,6 +113,7 @@
             this.txtSenha.Size = new System.Drawing.Size(347, 20);
             this.txtSenha.TabIndex = 2;
             this.txtSenha.Text = "SENHA";
+            this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSenha.Enter += new System.EventHandler(this.txtSenha_Enter);
             this.txtSenha.Leave += new System.EventHandler(this.txtSenha_Leave);
             // 
